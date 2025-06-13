@@ -1,0 +1,25 @@
+<% layout('layouts/boilerplate') %>
+<h2>Patient Dashboard</h2>
+<p>Welcome, <%= name %>!</p>
+
+<form action="/book-appointment" method="POST">
+  <label for="doctor">Select Doctor:</label>
+  <select name="doctorId" id="doctor" required>
+    <% doctors.forEach(function(doctor) { %>
+      <option value="<%= doctor._id %>"><%= doctor.name %></option>
+    <% }); %>
+  </select><br><br>
+
+  <label for="date">Select Date:</label>
+  <input type="date" name="date" required><br><br>
+
+  <label for="time">Select Time:</label>
+  <input type="time" name="time" required><br><br>
+
+  <button type="submit">Book Appointment</button>
+</form>
+<form action="/logout" method="GET" style="text-align: right;">
+  <button type="submit">Logout</button>
+</form>
+
+

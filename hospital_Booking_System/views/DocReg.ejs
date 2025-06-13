@@ -1,0 +1,28 @@
+<% layout('layouts/boilerplate') %>
+    <div class="d-flex justify-content-center">
+        <form action="/register" method="post">
+          <label for="role" class="col-sm-4 col-form-label">Role</label>    
+          <select name="role" required>
+            <option value="doctor">Doctor</option>
+          </select><br><br>
+
+   <label for="name"class="col-sm-4 col-form-label">Name</label>
+        <input name="name" type="text" class="col-sm-6" required/> <br><br>
+
+          <label for="specialization"class="col-sm-4 col-form-label">specialization</label>
+        <input name="specialization" class="col-sm-6" type="text" /> <br><br>
+
+         <label for="experience"class="col-sm-4 col-form-label">experience</label>
+        <input name="experience" type="text"  class="col-sm-6"  required/> <br><br>
+
+        <label for="email"class="col-sm-4 col-form-label">Email</label>
+        <input name="email" type="email"  class="col-sm-6"  required/> <br><br>
+
+        <label for="password"class="col-sm-4 col-form-label">Password</label>
+        <input name="password" type="password" class="col-sm-6" required/> <br><br>
+      <div class="d-flex justify-content-center">
+        <button type="submit" class=" btn btn-primary">Register</button>
+    </div>
+      </form>
+    </div>
+    

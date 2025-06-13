@@ -1,0 +1,35 @@
+<% layout('layouts/boilerplate') %>
+   
+
+<h2 class="mb-4">Registered Doctors</h2>
+
+<% if (doctors.length === 0) { %>
+  <p>No doctors found.</p>
+<% } else { %>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Specialization</th>
+        <th>Email</th>
+        <th>Book Appointment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% doctors.forEach(doctor => { %>
+        <tr>
+          <td><%= doctor.userId.name %></td>
+          <td><%= doctor.userId.specialization %></td>
+          <td><%= doctor.userId.email %></td>
+          <td>
+           <form action="/login">
+            <button type="submit">Book Appointment</button>
+         </form>
+         </td>
+          </tr>
+      <% }); %>
+    </tbody>
+  </table>
+<% } %>
+
+  

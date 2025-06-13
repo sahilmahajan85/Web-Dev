@@ -1,0 +1,29 @@
+<% layout('layouts/boilerplate') %>
+ <form action="/DoctorRegister">
+      <button type="submit" class=" btn btn-primary" >Register Doctor</button>
+    </form><br><br>
+        <div class="d-flex justify-content-center">
+        <form action="/register" method="post">
+          <label for="role" class="col-sm-3 col-form-label">Role</label>    
+         <select name="role" class="col-sm-4 col-form-label" required>
+            <option value="patient">Patient</option>
+          </select>
+          <br>
+        <br>
+
+          <label for="name"class="col-sm-3 col-form-label">Name</label>
+        <input name="name" type="text"   required/> <br><br>
+
+        <label for="email" class="col-sm-3 col-form-label">Email</label>
+        <input name="email" type="email"  required/> <br><br>
+
+        <label for="password" class="col-sm-3 col-form-label">Password</label>
+        <input name="password" type="password"required/> <br><br>
+         <div class="d-flex justify-content-center">
+        <button type="submit" class=" btn btn-primary">Register</button>
+</div>
+      </form>
+          </div>
+    
+   
+
