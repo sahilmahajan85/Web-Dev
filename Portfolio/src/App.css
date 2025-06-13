@@ -1,0 +1,472 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #141416;
+}
+/* nav bar*/ 
+.navbar{
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0.5rem 0.1rem 0.1rem;
+  font-size: 1.1rem;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 100%;
+  height: 8%; 
+  margin-top: -0.5rem;
+  margin-left: -0.5rem;
+}
+.logo{
+  font-family: cursive;
+  font-size: 1.5rem;
+  font-weight: bold; 
+  margin-left: 1rem;
+  background-color: rgb(10, 10, 10);
+}
+.nav-link{
+  
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+  justify-content: right;
+  background-color: rgb(0, 0, 0);
+  margin-right: 1.5rem;
+}
+.nav-link a{
+  font-family: cursive;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.nav-link a:hover{
+  color: #00ffcc;
+  text-decoration: underline;
+}
+/* home*/
+.front{
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: space-evenly;
+  color: white;
+  width: 100%;
+  gap: 5%;
+  margin-left: 7rem;
+}
+.details{
+ width: 80%;
+ margin-top: 5.5rem;
+ font-size: 1.2rem;
+}
+.simp{
+margin-top: -0.6rem;
+}
+#head1{
+  background-image: linear-gradient(90deg,  rgb(127, 52, 248),rgb(0, 238, 255) );
+  background-clip: text;
+ color: transparent;
+  font-size: 3rem;
+  font-family: cursive;
+  margin-top: -0.3rem;
+  margin-bottom: -1rem;
+}
+#head2{
+  background-image: linear-gradient(90deg,  rgb(202, 52, 248),rgb(235, 126, 131) );
+  background-clip: text;
+ color: transparent;
+ font-size: 2.5rem;
+ font-family: cursive;
+}
+.details button{
+  background-image: linear-gradient(90deg, rgb(248, 52, 173),rgb(229, 255, 0) );
+  background-clip: text;
+  color: transparent;
+  padding: 0.9rem;
+  border-color: white;
+  border-radius: 2rem;
+  font-size: 1.9rem;
+margin: 1rem;
+border-color: #00ffcc;;
+}
+.details button:hover{
+  border-color: #ffffff;
+  box-shadow:0 0 1.5rem #00ffcc;
+}
+.im img{
+  margin-top: 7rem;
+  height:70%;
+  width: 60%;
+  border-radius: 50%;
+  box-shadow:0 0 1.5rem #00ffcc;
+}
+
+/* about */
+.label{
+  padding-top: 2rem;
+}
+.label h1{
+  font-family: cursive;
+  color: #00ffcc;
+  font-size: 2rem;
+  margin-left: 5rem;
+}
+.label p{
+  width: 55%;
+  color: white;
+  font-size: 1rem;
+  margin-top: 3rem;
+  margin-left: 0;
+}
+.det{
+  display: flex;
+  margin-top: 1rem;
+  gap: 5rem;
+  margin-left: 8rem;
+}
+.det img{
+margin-top: 2rem;
+align-items: center;
+height:30%;
+width: 30%;
+ border-radius: 50%;
+ padding: 0.3rem;
+ border: 0.2rem solid #00ffcc;
+ box-shadow: 0 0 1.6rem #00ffcc;
+}
+  /* transparent bar*/
+.bar{
+  color: grey;
+  display: flex;
+  margin-left: 3rem;
+  
+}
+.bar h1{
+  border: 0.1rem solid grey;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+ padding-left: 6%;
+ padding-right: 5.6%;
+ padding-top: 2%;
+ padding-bottom: 2%;
+ margin-left: 0;
+ border-left: 0;
+ border-right: 0;
+ opacity: 0.3;
+} 
+
+/* skills*/
+.skill{
+  color: white;
+  height: 50%;
+  width: 100%;
+  font-size: 0.8rem;
+  padding-top: 2rem;
+}
+ 
+.skill h1{
+  font-family: cursive;
+  color: #00ffcc;
+  margin-left: 5rem;
+  font-size: 2rem;
+  margin-bottom:4rem;
+}
+
+.tool h2{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#imglogo{
+  height: 70%;
+  width: 70%;
+  border-radius: 50px;
+  border: 1px solid grey;
+  margin-left: 5rem;
+}
+#imglogo:hover{
+  box-shadow: 0 0 2rem #00ffcc;
+}
+
+.combo{
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: space-around;
+}
+
+/*  education*/
+.edu{
+  padding-top: 2rem;
+}
+.edu h1{
+  font-family: cursive;
+  color: #00ffcc;
+  margin-left: 5rem;
+  font-size: 2rem;
+  margin-bottom:4rem;
+}
+.cont{
+ display:flex;
+
+  color: white;
+  font-size: 0.9rem;
+}
+#hd{
+  margin-bottom: -1rem;
+  margin-top: 1rem;
+}
+.line{
+  border-left: 0.17rem solid #00ffcc;
+  height: 60%px;
+  width: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 30px;
+}
+.up{
+  height: 27%;
+  width: 80%;
+  border: 0.12rem solid #00ffcc;
+  padding: 0 1rem 1rem 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 0.7rem #00ffcc;
+
+}
+.down{
+  height: 25%;
+  width: 80%;
+  border: 0.12rem solid #00ffcc;
+  margin-top: 38%;
+  padding: 0 1rem 1rem 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 0.7rem #00ffcc;
+}
+.left{
+  margin-left: 15%;
+  width: 50%;
+}
+.left h3{
+  text-align: right;
+}
+.right{
+  margin-left: 3rem;
+  margin-right: 10%;
+  margin-top: 13%;
+height: 16%;
+width: 40%;
+border: 0.12rem solid #00ffcc;
+padding: 0 1rem 1rem 1rem;
+border-radius: 1.5rem;
+box-shadow: 0 0 0.7rem #00ffcc;
+}
+.dot1{
+  background-color: #00ffcc;
+  height: 0.8rem;
+  width: 0.8rem;
+  border: 0.1rem solid #00ffcc;
+  border-radius: 50%;
+  margin-top: 3.5rem;
+  margin-left: -1rem;
+  box-shadow: 0 0 0.7rem #00ffcc;
+}
+.dot2{
+  background-color: #00ffcc;
+  height: 0.8rem;
+  width: 0.8rem;
+  border: 0.1rem solid #00ffcc;
+  border-radius: 50%;
+  margin-top: 10rem;
+  margin-left: -1rem;
+  box-shadow: 0 0 0.7rem #00ffcc;
+}
+.dot3{
+  background-color: #00ffcc;
+  height: 0.8rem;
+  width: 0.8rem;
+  border: 0.1rem solid #00ffcc;
+  border-radius: 50%;
+  margin-top: 9rem;
+  margin-left: -1rem;
+  box-shadow: 0 0 0.7rem #00ffcc;
+}
+
+/* contact */
+.contact{
+  color:#00ffcc;
+  padding-top: 1.8rem;
+  width: 100%;
+  margin-left: 3rem;
+}
+.contact h1{
+  font-family: cursive;
+  color: #00ffcc;
+  margin-left: 5rem;
+  font-size: 2rem; 
+}
+.social{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.links{
+  margin-top: -1rem;
+}
+#lar{
+  height: 1.5rem;
+  width: 1.5rem;
+  font-size: 1.5rem;
+  border: 0.13rem solid #fafafa;
+  border-radius: 50%;
+  padding: 0.5rem;
+  padding-left: 0.5rem;
+  display: flex;
+  margin-top: 0.9rem;
+}
+.contact i:hover{
+  box-shadow: 0 0 0.8rem #00ffcc;
+}
+.inlin{
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+.inlin a ,.inlin p{
+  color: white;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sty{
+  color: white;
+  font-weight: bold;
+}
+
+/* form */
+.inpu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.2rem solid black;
+  border-radius: 4rem;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  padding: 1.5rem;
+}
+.inpu:hover{
+  box-shadow: 0 0 50px #00ffcc;
+}
+.space{
+  margin-top: 2rem;
+}
+.inpu label{
+  font-size: 1.4rem;
+}
+.inpu textarea{
+  background-color:#141416;
+  color: white;
+  border-radius: 2rem;
+  margin-left: 1.4rem;
+  margin-bottom: -2rem;
+  padding: 0.35rem;
+  width: 14rem;
+  height: 4rem;
+  border:0.1rem solid #ffffff;
+}
+.inpu textarea:hover{
+  box-shadow: 0 0 2rem #00ffcc;
+ }
+.inpu input{
+  background-color: #141416;
+  width: 60%;
+  height: 25%;
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+  padding: 0.35rem;
+  border-radius: 2rem;
+  color:white;
+  margin-left: 1rem;
+  border:0.122rem solid #ffffff;
+}
+.inpu input:hover{
+ box-shadow: 0 0 50px #00ffcc;
+}
+#sub{
+  background-color: #000000;
+  height: 2.5rem;
+  width: 6rem;
+  color: #00ffcc;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  margin-left: 40%;
+}
+#in1{
+  margin-left: 4rem;
+}
+#in2{
+  margin-left: 3.2rem;
+}
+.contact hr{
+  margin-top: 3rem;
+}
+.bottom h4{
+  font-family: cursive;
+  margin-left: 40%;
+  margin-bottom: -20px;
+}
+
+
+/* for media queries */
+/* Mobile Styles */
+
+@media (max-width: 768px) { 
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .front {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .det {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .det img {
+    height: 15rem; 
+  }
+
+  .label p {
+    width: 90%; 
+  }
+} 
+
+/* Laptop Styles */ 
+@media (min-width: 769px) {
+  .navbar {
+    flex-direction: row;
+  }
+
+  .front {
+    flex-direction: row;
+  }
+
+  .det {
+    flex-direction: row;
+  }
+}
+  
+/* hide nav for mobile*/ 
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    display: none; 
+  }
+}
