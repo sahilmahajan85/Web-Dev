@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ticket Booking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Boarding List</h1>
+
+    <div id="message"></div>
+
+    <form id="bookingForm">
+      <input type="text" id="bookingId" placeholder="Booking ID (e.g. 101)" required />
+      <input type="text" id="seatNo" placeholder="Seat (e.g. A15)" required />
+      <button type="submit" class="primary">Add Passenger</button>
+      <button type="button" id="generateOrder" class="secondary">Generate Boarding Order</button>
+    </form>
+
+    <h2>Passenger List</h2>
+    <ul id="passengerList"></ul>
+
+    <h2>Boarding Order</h2>
+    <table id="boardingTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Booking ID</th>
+          <th>Seat</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
