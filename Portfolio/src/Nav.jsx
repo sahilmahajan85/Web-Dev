@@ -8,7 +8,7 @@ export default function Nav(){
        <>
   
        <nav className="navbar">
-        <div className="logo" >Portfolio</div>
+        <div className="logo" >Sahil</div>
         <ul className="nav-link">
             <li><a href="#Home">Home</a></li>
             <li><a href="#About">About Me</a></li>
@@ -33,4 +33,5 @@ export default function Nav(){
        <hr color="black" />
     </>
     );
+
 }
