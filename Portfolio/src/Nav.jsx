@@ -8,7 +8,7 @@ export default function Nav(){
        <>
   
        <nav className="navbar">
-        <div className="logo" >Sahil</div>
+        <div className="logo" >port</div>
         <ul className="nav-link">
             <li><a href="#Home">Home</a></li>
             <li><a href="#About">About Me</a></li>
@@ -35,3 +35,4 @@ export default function Nav(){
     );
 
 }
+
