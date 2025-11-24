@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <Link className="navbar-brand" to="/">MERN Blog</Link>
+        <Link className="navbar-brand" to="/">Blog</Link>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto">
             {!isLoggedIn ? (
@@ -44,3 +44,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
