@@ -27,7 +27,7 @@ if (token) {
   };
   return (
     <div>
-      <h2>Hello 1</h2>
+      <h2>Hello Ravi</h2>
       {posts.length === 0 ? <p>No posts yet.</p> : (
         posts.map(post => (
           <div className="card mb-3" key={post._id}>
@@ -54,5 +54,6 @@ if (token) {
 }
 
 export default Home;
+
 
 
