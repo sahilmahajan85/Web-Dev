@@ -1,6 +1,5 @@
 function Cv(){
-   const url = "https://drive.google.com/file/d/1-3Ma5xMH_HGmpEEOT2TsnNFgjmn2gOSV/view?usp=drivesdk";
-   window.open(url,'_blank');
+   
 }
 
 export default function Nav(){
@@ -34,4 +33,5 @@ export default function Nav(){
        <hr color="black" />
     </>
     );
+
 }
