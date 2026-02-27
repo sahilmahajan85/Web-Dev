@@ -1,6 +1,5 @@
 function Cv(){
-   const url = "https://drive.google.com/file/d/1x-Us3shpN2LRQvnTkORgFiNKnmV3A3Bu/view?usp=drive_link";
-   window.open(url,'_blank');
+   
 }
 
 export default function Nav(){
@@ -35,4 +34,5 @@ export default function Nav(){
     );
 
 }
+
 
