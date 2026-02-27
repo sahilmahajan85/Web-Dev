@@ -26,7 +26,7 @@ export default function Nav(){
        <button onClick={Cv}>Download Cv</button>
        </div>
        <div className="im">
-        <img src="profile.jpeg" alt="image" />
+        
        </div>
        </div>
        <br /><br />
@@ -35,3 +35,4 @@ export default function Nav(){
     );
 
 }
+
